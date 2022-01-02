@@ -134,11 +134,11 @@ ul {
         text-align: center;
     }
     .header {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns:0.5fr 1fr 1fr 1fr 0.5fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: 
-        "player . monster"
-        ". . ."
+        ". player . monster ."
+        ". . . . ."
         ;
     }
 }
